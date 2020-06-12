@@ -44,12 +44,12 @@ names_2 = f.read().split("\n")  # List containing 10000 names
 f.close()
 
 # Return the list of duplicates in this data structure
-# duplicates = [x for x in names_1 if x in names_2]
-duplicates = []
+duplicates = [x for x in names_1 if x in names_2]
+# duplicates = []
 
-for x in names_1:
-    if x in names_2:
-        duplicates.append(x)
+# for x in names_1:
+#     if x in names_2:
+#         duplicates.append(x)
 
 # node = BSTNode("Josiah Bailey")
 # for name_1 in names_1:
